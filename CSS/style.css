@@ -153,6 +153,27 @@ main{
     font-size: 20px;
     text-align: center;
 }
+#whatsappicon{
+    position: fixed;
+    top: 590px;
+    margin-left: 80%;
+    background-color: #0dc152;
+    width: 180px;
+    padding: 0.5%;
+    border-radius: 10px;
+}
+#whatsappicon a{
+    text-decoration: none;
+    color: #FFE8D6;
+    font-size:  20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#whatsappicon a i{
+    margin-right: 5px;
+}
 footer{
     width: 100%;
     background-color: #65412B;
@@ -265,7 +286,16 @@ footer{
     #textosobre {
         font-size: 16px;
     }
-
+    #whatsappicon {
+        top: 90vh;
+        width: 150px;
+        margin-left: 39%;
+        margin-right: 5%;
+        padding: 2%;
+    }
+    #whatsappicon a {
+        font-size: 18px;
+    }
     /* Footer */
     
     #conteudofooter {
@@ -348,7 +378,16 @@ footer{
     #textosobre {
         font-size: 16px;
     }
-
+    #whatsappicon {
+        top: 90vh;
+        width: 170px;
+        margin-left: 45%;
+        margin-right: 5%;
+        padding: 2%;
+    }
+    #whatsappicon a {
+        font-size: 18px;
+    }
     /* Footer */
     
     #conteudofooter {
@@ -430,7 +469,16 @@ footer{
     #sobretexto {
         width: 90%;
     }
-
+    #whatsappicon {
+        top: 90vh;
+        width: 170px;
+        margin-left: 55%;
+        margin-right: 5%;
+        padding: 2%;
+    }
+    #whatsappicon a {
+        font-size: 18px;
+    }
     /* Footer */
     
     #conteudofooter {
@@ -487,7 +535,16 @@ footer{
     #sobretexto {
         width: 90%;
     }
-
+    #whatsappicon {
+        top: 87vh;
+        width: 170px;
+        margin-left: 60%;
+        margin-right: 5%;
+        padding: 2%;
+    }
+    #whatsappicon a {
+        font-size: 18px;
+    }
     /* Footer */
     #conteudofooter {
         flex-direction: column;
@@ -533,7 +590,9 @@ footer{
     header nav {
         width: 50%;
     }
-
+    header nav a {
+        font-size: 16px;
+    }
 
     /* Main */
 
@@ -547,7 +606,16 @@ footer{
     #sobretexto {
         width: 90%;
     }
-
+    #whatsappicon {
+        top: 87vh;
+        width: 180px;
+        margin-left: 70%;
+        margin-right: 5%;
+        padding: 1%;
+    }
+    #whatsappicon a {
+        font-size: 20px;
+    }
     /* Footer */
     
     #arealogofooter {
@@ -588,6 +656,16 @@ footer{
     #sobretexto {
         width: 90%;
     }
+    #whatsappicon {
+        top: 87vh;
+        width: 180px;
+        margin-left: 80%;
+        margin-right: 5%;
+        padding: 1%;
+    }
+    #whatsappicon a {
+        font-size: 20px;
+    }
     /* Footer */
     #arealogofooter {
         width: 25%;
@@ -610,7 +688,16 @@ footer{
         margin-top: 4%;
     }
     /* Main */
-
+    #whatsappicon {
+        top: 87vh;
+        width: 180px;
+        margin-left: 90%;
+        margin-right: 5%;
+        padding: 1%;
+    }
+    #whatsappicon a {
+        font-size: 20px;
+    }
     /* Footer */
     
 }
