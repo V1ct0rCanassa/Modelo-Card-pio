@@ -55,7 +55,9 @@ header nav a{
     color: #FFE8D6;
     font-size: 20px;
 }
-
+header nav ul li:last-child {
+    display: none;
+}
 /* Main */
 main{
     margin-top: 0;
@@ -64,6 +66,47 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+.barralateral {
+    width: 15%;
+    position: fixed;
+    top: 13vh;
+    left: 85%;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    z-index: 12;
+    padding-top: 0.5%;
+    padding-left: 0.5%;
+    background-color: #e5e3e5;
+    box-shadow: 0px 0px 5px #000000;
+}
+.barralateral ul{
+    width: 100%;
+    list-style: none;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    background-color: #e5e3e5;
+}
+.barralateral ul li{
+    width: 100%;
+    padding-left: 10%;
+}
+.barralateral a{
+    text-decoration: none;
+    width: 100%;
+    color: #007a3e;
+    font-size: 20px;
+    transition: 0.5s;
+}
+.barralateral a:hover{
+    color: #000000;
+}
+.dotted-linel {
+    border-top: 2px solid #007a3e; 
+    width: 80%; 
+    margin-left: 10%; 
+    margin-bottom: 10%;
 }
 #banner{
     width: 100%;
@@ -77,6 +120,7 @@ main{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    
 }
 #cardapio{
     width: 100%;
@@ -161,6 +205,7 @@ main{
     width: 180px;
     padding: 0.5%;
     border-radius: 10px;
+    z-index: 13;
 }
 #whatsappicon a{
     text-decoration: none;
@@ -229,11 +274,11 @@ footer{
     display: flex;
     align-items: center;
 }
-.dotted-line {
-    border-top: 5px dotted #65412B; 
-    width: 100%; 
-    margin: 20px 0; 
-}
+    .dotted-line {
+        border-top: 5px dotted #65412B; 
+        width: 100%; 
+        margin: 20px 0; 
+    }
 
 /* Responsividade */
 
@@ -241,18 +286,36 @@ footer{
     
     /* Header */
     #arealogo {
-        width: 45%;
-        margin-right: 10%;
+        width: 70%;
+        margin-right: 15%;
     }
     #arealogo img {
         width: 50%;
     }
-    header nav{
+    header nav ul li {
         display: none;
+    }
+      
+    header nav ul li:last-child {
+        display: list-item;
+    }
+    header nav a{
+        font-size: 28px;
     }
 
     /* Main */
-
+    .barralateral {
+        width: 80%;
+        top: 15vh;
+        left: 20%;
+    }
+    .barralateral ul{
+        padding-top: 20%;
+        padding-bottom: 5%;
+    }
+    .dotted-linel { 
+        margin-bottom: 20%;
+    }
     #banner {
         margin-top: 20%;
 
@@ -333,18 +396,36 @@ footer{
     
     /* Header */
     #arealogo {
-        width: 45%;
-        margin-right: 10%;
+        width: 60%;
+        margin-right: 15%;
     }
     #arealogo img {
         width: 50%;
     }
-    header nav{
+    header nav ul li {
         display: none;
+    }
+      
+    header nav ul li:last-child {
+        display: list-item;
+    }
+    header nav a{
+        font-size: 28px;
     }
 
     /* Main */
-
+    .barralateral {
+        width: 80%;
+        top: 15vh;
+        left: 20%;
+    }
+    .barralateral ul{
+        padding-top: 20%;
+        padding-bottom: 5%;
+    }
+    .dotted-linel { 
+        margin-bottom: 20%;
+    }
     #banner {
         margin-top: 20%;
 
@@ -425,19 +506,37 @@ footer{
     /* Header */
     #arealogo {
         width: 45%;
-        margin-right: 10%;
+        margin-right: 25%;
     }
     #arealogo img {
         width: 50%;
     }
-    header nav{
+    header nav ul li {
         display: none;
+    }
+      
+    header nav ul li:last-child {
+        display: list-item;
+    }
+    header nav a{
+        font-size: 28px;
     }
 
     /* Main */
-
+    .barralateral {
+        width: 70%;
+        top: 15vh;
+        left: 30%;
+    }
+    .barralateral ul{
+        padding-top: 20%;
+        padding-bottom: 5%;
+    }
+    .dotted-linel { 
+        margin-bottom: 20%;
+    }
     #banner {
-        margin-top: 20%;
+        margin-top: 16%;
 
     }
     #titulocardapio{
@@ -519,16 +618,36 @@ footer{
     
     /* Header */
     #arealogo {
-        margin-right: 20%;
+        width: 45%;
+        margin-right: 30%;
     }
     #arealogo img {
-        width: 50%;
+        width: 45%;
     }
-    header nav {
+    header nav ul li {
         display: none;
+    }
+      
+    header nav ul li:last-child {
+        display: list-item;
+    }
+    header nav a{
+        font-size: 28px;
     }
 
     /* Main */
+    .barralateral {
+        width: 55%;
+        top: 15vh;
+        left: 45%;
+    }
+    .barralateral ul{
+        padding-top: 15%;
+        padding-bottom: 5%;
+    }
+    .dotted-linel { 
+        margin-bottom: 20%;
+    }
     .elemento {
         display: none;
     }
@@ -541,6 +660,7 @@ footer{
         margin-left: 60%;
         margin-right: 5%;
         padding: 2%;
+
     }
     #whatsappicon a {
         font-size: 18px;
